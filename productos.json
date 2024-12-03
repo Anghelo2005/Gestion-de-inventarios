@@ -1,0 +1,80 @@
+{
+    "productos": [
+        {
+            "id": "123456789012",
+            "nombre": "Producto A",
+            "precio": 10.0,
+            "cantidad": 80,
+            "limite_alerta": 10
+        },
+        {
+            "id": "987654321098",
+            "nombre": "Producto B",
+            "precio": 15.0,
+            "cantidad": 42,
+            "limite_alerta": 5
+        },
+        {
+            "id": "3",
+            "nombre": "ACE",
+            "precio": 50.0,
+            "cantidad": 350,
+            "limite_alerta": 5
+        },
+        {
+            "id": "4",
+            "nombre": "LECHE",
+            "precio": 3.5,
+            "cantidad": 80,
+            "limite_alerta": 10
+        },
+        {
+            "id": "5",
+            "nombre": "ARROZ",
+            "precio": 5.0,
+            "cantidad": 140,
+            "limite_alerta": 10
+        }
+    ],
+    "transacciones": [
+        {
+            "producto": "LECHE",
+            "hora": "2024-12-03 08:30:20",
+            "tipo": "desconocido",
+            "cantidad": 0,
+            "stock_final": 0
+        },
+        {
+            "producto": "ACE",
+            "hora": "2024-12-03 08:30:31"
+        },
+        {
+            "producto": "ACE",
+            "hora": "2024-12-03 08:30:39"
+        },
+        {
+            "id": 4,
+            "producto": "ARROZ",
+            "hora": "2024-12-03 08:34:40",
+            "tipo": "adici\u00f3n",
+            "cantidad": 100,
+            "stock_final": 100
+        },
+        {
+            "id": 5,
+            "producto": "ARROZ",
+            "hora": "2024-12-03 08:35:03",
+            "tipo": "actualizaci\u00f3n",
+            "cantidad": 40,
+            "stock_final": 140
+        },
+        {
+            "id": 6,
+            "producto": "ACE",
+            "hora": "2024-12-03 08:38:09",
+            "tipo": "actualizaci\u00f3n",
+            "cantidad": 40,
+            "stock_final": 350
+        }
+    ]
+}
